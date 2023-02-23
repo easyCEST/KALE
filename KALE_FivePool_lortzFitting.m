@@ -17,7 +17,7 @@ All_numClass = 1;
 
 K_value = 3;
 method_fitting = 1; % 0 : class fitting     1 : after kmeans and voxels fitting
-std_range = 76;       % 76
+std_range = 76;     % 76
 num_range = 12;     % 12
 
 method = 'kmeanspp'; 
