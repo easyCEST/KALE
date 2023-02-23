@@ -67,7 +67,7 @@ while 1
         
         Mean_mSigEStd =  mean(mSigEStd(index_choice,:));
         for ii = 1 : length(ture_index)
-            if (Mean_mSigEStd(ii) < ori_std)  || (length(ture_index{ii}) < (floor(Row/num_range))^2) % 相应类别不用进行下采样 20
+            if (Mean_mSigEStd(ii) < ori_std)  || (length(ture_index{ii}) < (floor(Row/num_range))^2) 
                 index = ture_index{ii};
                 numCluster = numCluster + 1;
 %%%%%%%%%%%%%%%%%%%%%% KALE-LD group-wise fitting %%%%%%%%%%%%%%%%%%%%%%%%
